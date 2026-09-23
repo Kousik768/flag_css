@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-position: center;
+    background-position: center;
+}
+
+
+.flag{
+    height: 200px;
+    width: 270px;
+    background-image: linear-gradient(orange,white,green);
+    position: absolute;
+    top: 50px;
+    left:80px;
+    border: 1px solid black;
+    border-radius: 4px;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes name{
+    0%{
+        position: absolute;
+        top: 50px;
+        left: 80px;
+    }
+    50%{
+        position: absolute;
+        right: 50px;
+        left: 80px;
+        width: 300px;
+    }
+    100%{
+        position: absolute;
+        top: 50px;
+        left: 70px;
+    }
+}
+
+.stick{
+    height: 520px;
+    width: 20px;
+    background-image: linear-gradient(black);
+    position: absolute;
+    top: 45px;
+    left:70px;
+    border: 1px solid black;
+    border-radius: 4px;
+    animation-name: name;
+  }
+
+  .ball{
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(black);
+    position: absolute;
+    top: 35px;
+    left:70px;
+    border-radius: 50px;
+   
+  }
+.ashoka_chakra{
+    height: 120px;
+    width: 130px;
+    background-image:linear-gradient(white) ;
+    position: absolute;
+    top: 45px;
+    left:90px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+.line1{
+    height:117px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+}
+
+.line2{
+    height:117px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 59px;
+    top: -1px;
+    transform: rotate(15deg);
+}
+
+.line3{
+    height:119px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 59px;
+    top: -2px;
+    transform: rotate(30deg);
+}
+.line4{
+    height:122px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 59px;
+    top: -4px;
+    transform: rotate(45deg);
+}
+
+.line5{
+    height:124px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 59px;
+    top: -6px;
+    transform: rotate(60deg);
+}
+
+.line6{
+    height:127px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -6px;
+    transform: rotate(75deg);
+}
+
+.line7{
+    height:128px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -7px;
+    transform: rotate(90deg);
+}
+
+.line7{
+    height:120px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -3px;
+    transform: rotate(-15deg);
+}
+.line8{
+    height:120px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -3px;
+    transform: rotate(-30deg);
+}
+.line9{
+    height:122px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -3px;
+    transform: rotate(-45deg);
+}
+
+.line10{
+    height:124px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -3px;
+    transform: rotate(-60deg);
+}
+.line11{
+    height:125px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -3px;
+    transform: rotate(-75deg);
+}
+.line12{
+    height:127px;
+    width: 2px;
+    background-color: blue;
+    position: absolute;
+    left: 60px;
+    top: -3px;
+    transform: rotate(-90deg);
+}
+
+.step1{
+    height:30px;
+    width: 100px;
+    background-color:orange;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 565px;
+    left: 33px;
+}
+.step2{
+    height:30px;
+    width: 150px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 595px;
+    left: 10px;
+}
+.step3{
+    height:30px;
+    width: 180px;
+    background-color:green;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 625px;
+    left: 0px;
+}
